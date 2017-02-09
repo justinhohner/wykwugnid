@@ -9,7 +9,7 @@ hooks:
       timeout: 300
       runas: root
   AfterInstall:
-    - location: scripts/AfterInstall.sh
+    - location: scripts/after_install
       runas: deploy
   ApplicationStop:
     - location: scripts/stop_server
