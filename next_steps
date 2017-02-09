@@ -1,9 +1,0 @@
-find a CI/CD service like travis
-make it test and package your code
-once its tested and packaged we can move it into AWS codedeploy
-codedeploy will move the code onto the AMI - if you want
-use travis to build an AMI with ansible
-
-
-add hostname change to ansible
-packer file to build an ami
